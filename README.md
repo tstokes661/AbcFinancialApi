@@ -8,10 +8,14 @@ Returns in json format<br><br>
 <code>
 require "AbcApi.php";
 
+</code>
+<code>
 $AbcApi = new AbcApi($AppId,$AppKey);
-
+</code>
+<code>
 $club_data = $AbcApi->Club($club_id);
-
+</code>
+<code>
 var_dump($club_data);
 
 </code>
