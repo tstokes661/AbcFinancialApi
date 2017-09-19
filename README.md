@@ -18,5 +18,4 @@ $club_data = $AbcApi->Club($club_id);
 <br>
 <code>
 var_dump($club_data);
-
 </code>
