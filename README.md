@@ -4,7 +4,7 @@ This is <strong>not</strong> complete yet. <Br>
 Author: Thomas Stokes <br>
 Returns in json format<br><br>
 
-<strong>Example use:</strong> 
+<strong>Example use:</strong> <br>
 require "AbcApi.php";<br>
 $AbcApi = new AbcApi($AppId,$AppKey);<br>
 $club_data = $AbcApi->Club($club_id);<br>
