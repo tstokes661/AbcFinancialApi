@@ -7,14 +7,15 @@ Returns in json format<br><br>
 <strong>Example use:</strong> <br>
 <code>
 require "AbcApi.php";
-
 </code>
+<br>
 <code>
 $AbcApi = new AbcApi($AppId,$AppKey);
-</code>
+</code><br>
 <code>
 $club_data = $AbcApi->Club($club_id);
 </code>
+<br>
 <code>
 var_dump($club_data);
 
