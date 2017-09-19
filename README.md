@@ -5,7 +5,13 @@ Author: Thomas Stokes <br>
 Returns in json format<br><br>
 
 <strong>Example use:</strong> <br>
-require "AbcApi.php";<br>
-$AbcApi = new AbcApi($AppId,$AppKey);<br>
-$club_data = $AbcApi->Club($club_id);<br>
-var_dump($club_data);<br>
+<code>
+require "AbcApi.php";
+
+$AbcApi = new AbcApi($AppId,$AppKey);
+
+$club_data = $AbcApi->Club($club_id);
+
+var_dump($club_data);
+
+</code>
